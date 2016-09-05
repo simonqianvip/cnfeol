@@ -54,7 +54,6 @@ class CnfeolSpider(scrapy.Spider):
             pageIndex = pageIndex + 1
             print '------当前第%d页------'%pageIndex
 
-
             # 产品名称
             names = driver.find_elements_by_xpath('//*[@id="contentlistcontainer_zdj"]/div[6]/table/tbody/tr/td[1]')
             # 规格
